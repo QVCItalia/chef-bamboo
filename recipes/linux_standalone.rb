@@ -41,8 +41,8 @@ execute 'Generating Self-Signed Java Keystore' do
 end
 
 directory node['bamboo']['install_path'] do
-  owner node['bamboo']['user']
-  group node['bamboo']['user']
+  owner 'root'
+  group 'root'
   mode 00755
   action :create
   recursive true
