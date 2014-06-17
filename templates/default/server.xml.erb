@@ -97,7 +97,7 @@
               
         ====================================================================================
         -->
-            <Connector port="8443" 
+            <Connector port="<%= node['bamboo']['tomcat']['ssl_port'] %>" 
             	maxHttpHeaderSize="8192" 
             	SSLEnabled="true"
 				maxThreads="150" 
