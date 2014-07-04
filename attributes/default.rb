@@ -53,3 +53,13 @@ default['bamboo']['tomcat']['keystorePass'] = 'changeit'
 default['bamboo']['tomcat']['port']         = '8085'
 default['bamboo']['tomcat']['ssl_port']     = '8443'
 default['bamboo']['context']                = ''
+
+default['bamboo']['crowd']['integration'] = false
+default['bamboo']['crowd']['sso'] = false
+default['bamboo']['crowd']['application.name'] = 'bamboo'
+default['bamboo']['crowd']['application.password'] = 'password'
+default['bamboo']['crowd']['application.login.url'] = 'http://localhost:8095/crowd/console/'
+default['bamboo']['crowd']['crowd.server.url'] = 'http://localhost:8095/crowd/services'
+default['bamboo']['crowd']['crowd.base.url'] = 'http://localhost:8095/crowd/'
+default['bamboo']['crowd']['session.validationinterval'] = 2
+
