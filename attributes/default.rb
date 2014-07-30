@@ -4,12 +4,13 @@ default['bamboo']['install_type'] = 'standalone'
 default['bamboo']['service_type'] = 'init'
 default['bamboo']['url_base']     = 'http://www.atlassian.com/software/bamboo/downloads/binary/atlassian-bamboo'
 default['bamboo']['user']         = 'bamboo'
-default['bamboo']['version']      = '5.5.1'
+default['bamboo']['version']      = '5.6.0'
 
 default['bamboo']['url']      = "#{node['bamboo']['url_base']}-#{node['bamboo']['version']}.tar.gz"
 default['bamboo']['checksum'] =
 case node['bamboo']['version']
-when '5.5.1' then '1a9229158d7347d8debeca824ce1511d40e1baa8514309aea576e0c07d73cf19'
+	when '5.5.1' then '1a9229158d7347d8debeca824ce1511d40e1baa8514309aea576e0c07d73cf19'
+	when '5.6.0' then '71c72e094fbcc258aa0f0cf74c652e0d63887c35b900f563bc672db99c5d9b98'
 end
 
 default['bamboo']['apache2']['webapp_enable']      = true
@@ -62,4 +63,3 @@ default['bamboo']['crowd']['application.login.url'] = 'http://localhost:8095/cro
 default['bamboo']['crowd']['crowd.server.url'] = 'http://localhost:8095/crowd/services'
 default['bamboo']['crowd']['crowd.base.url'] = 'http://localhost:8095/crowd/'
 default['bamboo']['crowd']['session.validationinterval'] = 2
-
