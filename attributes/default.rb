@@ -4,13 +4,14 @@ default['bamboo']['install_type'] = 'standalone'
 default['bamboo']['service_type'] = 'init'
 default['bamboo']['url_base']     = 'http://www.atlassian.com/software/bamboo/downloads/binary/atlassian-bamboo'
 default['bamboo']['user']         = 'bamboo'
-default['bamboo']['version']      = '5.6.0'
+default['bamboo']['version']      = '5.6.1'
 
 default['bamboo']['url']      = "#{node['bamboo']['url_base']}-#{node['bamboo']['version']}.tar.gz"
 default['bamboo']['checksum'] =
 case node['bamboo']['version']
 	when '5.5.1' then '1a9229158d7347d8debeca824ce1511d40e1baa8514309aea576e0c07d73cf19'
 	when '5.6.0' then '71c72e094fbcc258aa0f0cf74c652e0d63887c35b900f563bc672db99c5d9b98'
+	when '5.6.1' then '28fcf425b44737fbe7aedc9cdccacee788d174c3cd6cc2beb4ce5f3ca5d0de27'
 end
 
 default['bamboo']['apache2']['webapp_enable']      = true
