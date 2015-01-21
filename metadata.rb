@@ -4,7 +4,7 @@ maintainer_email 'sergio.leone@qvc.com'
 license 'Apache 2.0'
 description 'Installs/Configures Atlassian Bamboo'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version '0.4.1'
+version '0.4.2'
 recipe 'bamboo', 'Installs/Configures Atlassian Bamboo'
 recipe 'bamboo::apache2', 'Installs/Configures Apache 2 proxy for Bamboo'
 recipe 'bamboo::configuration', "Configures Bamboo's settings"

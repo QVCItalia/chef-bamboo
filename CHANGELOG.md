@@ -1,3 +1,7 @@
+#0.4.2
+
+* Enhancement: Default to Bamboo 5.7.2
+
 #0.4.1
 
 * BugFix: Fixed version from 5.7 to 5.7.0
