@@ -1,3 +1,7 @@
+#0.5.0
+
+* Enhancement: Default to Bamboo 5.8.1
+
 #0.4.2
 
 * Enhancement: Default to Bamboo 5.7.2
