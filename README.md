@@ -1,6 +1,6 @@
 ## Deprecation warning
 
-This recipe is no longer mantained and may not work on recent versions of Crowd.
+This recipe is no longer mantained and may not work on recent versions of Bamboo.
 We suggest you to look at https://github.com/ramonskie/bamboo instead.
 
 ## Description
