@@ -1,3 +1,8 @@
+## Deprecation warning
+
+This recipe is no longer mantained and may not work on recent versions of Crowd.
+We suggest you to look at https://github.com/ramonskie/bamboo instead.
+
 ## Description
 
 Installs/Configures [Atlassian Bamboo](https://www.atlassian.com/software/bamboo/) server.
